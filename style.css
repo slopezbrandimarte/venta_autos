@@ -1,0 +1,46 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh; /* Para que el cuerpo ocupe al menos toda la altura de la pantalla */
+    background-image: url('./WhatsApp Image 2024-04-01 at 21.12.39.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 20px; /* Añadir espacio interno a los contenedores */
+}
+
+.hero {
+    height: 100vh; /* Para que la sección del héroe ocupe toda la altura de la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1,
+.hero p,
+.hero a {
+    margin-bottom: 20px; /* Añadir espacio entre elementos */
+}
+
+/* Otras reglas de estilo según sea necesario */
